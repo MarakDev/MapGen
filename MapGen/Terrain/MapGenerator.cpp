@@ -91,22 +91,18 @@ void CMapGenerator::EnhancedGenerateTerrain()
 				if (m_oGrid->GetUpTile(tile) != nullptr)
 				{
 					tile->SetupTileDirty(m_oGrid->GetUpTile(tile)->GetTileType(), 10, 10);
-					break;
 				}
-				if (m_oGrid->GetDownTile(tile) != nullptr)
+				else if (m_oGrid->GetDownTile(tile) != nullptr)
 				{
 					tile->SetupTileDirty(m_oGrid->GetDownTile(tile)->GetTileType(), 10, 10);
-					break;
 				}
-				if (m_oGrid->GetLeftTile(tile) != nullptr) 
+				else if (m_oGrid->GetLeftTile(tile) != nullptr) 
 				{
 					tile->SetupTileDirty(m_oGrid->GetLeftTile(tile)->GetTileType(), 10, 10);
-					break;
 				}
-				if (m_oGrid->GetRightTile(tile) != nullptr)
+				else if (m_oGrid->GetRightTile(tile) != nullptr)
 				{
 					tile->SetupTileDirty(m_oGrid->GetRightTile(tile)->GetTileType(), 10, 10);
-					break;
 				}
 			}
 		}

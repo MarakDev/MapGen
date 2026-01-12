@@ -1,3 +1,0 @@
-﻿  Main.cpp
-C:\Users\marak\Desktop\Cositas\MapGen\MapGen\Main.cpp(11,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-  MapGen.vcxproj -> C:\Users\marak\Desktop\Cositas\MapGen\x64\Debug\MapGen.exe
